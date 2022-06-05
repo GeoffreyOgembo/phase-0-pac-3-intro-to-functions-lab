@@ -8,7 +8,14 @@ function logWhisper(string) {
 }
 logWhisper('HELLO');
 
-function sayHiToGrandma(string) {
+function sayHiToHeadphonedRoommate(string) {
     if (string === string.toLowerCase()) {
         return ("I can't hear you!");
+    }
+    else if(string=== string.toUpperCase()) {
+        return "YES INDEED!";
+    }
+    else if (string==="Let`s have dinner togather!") {
+        return "I would love to!";
         
+    }
